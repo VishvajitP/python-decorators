@@ -5,7 +5,7 @@
 def scream(word = 'yes'):
     return '%s!' %(word.upper())
 
-# Function taking a function as argument
+# Function taking another function as argument
 def do_something_before(func):
 
     # Do something before calling the passed function
